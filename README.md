@@ -35,19 +35,19 @@ In non-interactive mode, the program will exit after finishing your desired comm
 
 The shell has support for the following built-in commands:
 
-| Command                    | Definition
+| Command              | Definition
 |
-| -------------------------- | --------------------------------------------------------------------------------------------------- |
-| exit [n]                   | Exit the shell, with an optional exit status, n.
+| -------------------- | --------------------------------------------------------------------------------------------------- |
+| exit [n]             | Exit the shell, with an optional exit status, n.
 |
-| env                        | Print the environment.
+| env                  | Print the environment.
 |
-| setenv [var][value]        | Set an environment variable and value, If the variable exists, the value will be updated.            |
-|unsetenv [var]              | remove an environment variable.
+| setenv [var][value]  | Set an environment variable and value, If the variable exists, the value will be updated.           |
+| unsetenv [var]       | remove an environment variable.
 |
-cd [dir]                     | Change the directory.
+| cd [dir]             | Change the directory.
 |
-| help [built-in]            | Read documentation for a built-in.
+| help [built-in]      | Read documentation for a built-in.
 |
 
 
